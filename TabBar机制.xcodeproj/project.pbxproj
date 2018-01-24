@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9CAC0261C5AC7AE21C7A6D /* libPods-TabBar机制.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9697569103451EFFC2726DB3 /* libPods-TabBar机制.a */; };
+		9F659CC0201837200000EA12 /* HttpRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F659CBF201837200000EA12 /* HttpRequestModel.m */; };
+		9F659CC320183ADD0000EA12 /* BLListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F659CC220183ADD0000EA12 /* BLListModel.m */; };
+		9F659CC720183CCE0000EA12 /* BLListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F659CC520183CCE0000EA12 /* BLListTableViewCell.m */; };
+		9F659CC820183CCE0000EA12 /* BLListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F659CC620183CCE0000EA12 /* BLListTableViewCell.xib */; };
+		9FF236B0201821BE00DB52BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF236AF201821BE00DB52BB /* AppDelegate.m */; };
+		9FF236B8201821BE00DB52BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF236B7201821BE00DB52BB /* Assets.xcassets */; };
+		9FF236BB201821BE00DB52BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF236B9201821BE00DB52BB /* LaunchScreen.storyboard */; };
+		9FF236BE201821BE00DB52BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF236BD201821BE00DB52BB /* main.m */; };
+		9FF236C8201821BF00DB52BB /* TabBar__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF236C7201821BF00DB52BB /* TabBar__Tests.m */; };
+		9FF236D3201821BF00DB52BB /* TabBar__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF236D2201821BF00DB52BB /* TabBar__UITests.m */; };
+		9FF236E2201821E900DB52BB /* BLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF236E1201821E900DB52BB /* BLMainViewController.m */; };
+		9FF236E5201821F900DB52BB /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF236E4201821F900DB52BB /* FirstTableViewController.m */; };
+		9FF236E82018220500DB52BB /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF236E72018220500DB52BB /* SecondTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FF236C4201821BF00DB52BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF236A3201821BE00DB52BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF236AA201821BE00DB52BB;
+			remoteInfo = "TabBar机制";
+		};
+		9FF236CF201821BF00DB52BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF236A3201821BE00DB52BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF236AA201821BE00DB52BB;
+			remoteInfo = "TabBar机制";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9697569103451EFFC2726DB3 /* libPods-TabBar机制.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabBar机制.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F659CB92018345A0000EA12 /* BLHeaderFilePch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLHeaderFilePch.pch; sourceTree = "<group>"; };
+		9F659CBE201837200000EA12 /* HttpRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestModel.h; sourceTree = "<group>"; };
+		9F659CBF201837200000EA12 /* HttpRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestModel.m; sourceTree = "<group>"; };
+		9F659CC120183ADD0000EA12 /* BLListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLListModel.h; sourceTree = "<group>"; };
+		9F659CC220183ADD0000EA12 /* BLListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLListModel.m; sourceTree = "<group>"; };
+		9F659CC420183CCE0000EA12 /* BLListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLListTableViewCell.h; sourceTree = "<group>"; };
+		9F659CC520183CCE0000EA12 /* BLListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLListTableViewCell.m; sourceTree = "<group>"; };
+		9F659CC620183CCE0000EA12 /* BLListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLListTableViewCell.xib; sourceTree = "<group>"; };
+		9FF236AB201821BE00DB52BB /* TabBar机制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabBar机制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF236AE201821BE00DB52BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FF236AF201821BE00DB52BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FF236B7201821BE00DB52BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FF236BA201821BE00DB52BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FF236BC201821BE00DB52BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF236BD201821BE00DB52BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FF236C3201821BF00DB52BB /* TabBar机制Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TabBar机制Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF236C7201821BF00DB52BB /* TabBar__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar__Tests.m; sourceTree = "<group>"; };
+		9FF236C9201821BF00DB52BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF236CE201821BF00DB52BB /* TabBar机制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TabBar机制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF236D2201821BF00DB52BB /* TabBar__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar__UITests.m; sourceTree = "<group>"; };
+		9FF236D4201821BF00DB52BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF236E0201821E900DB52BB /* BLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLMainViewController.h; sourceTree = "<group>"; };
+		9FF236E1201821E900DB52BB /* BLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLMainViewController.m; sourceTree = "<group>"; };
+		9FF236E3201821F900DB52BB /* FirstTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		9FF236E4201821F900DB52BB /* FirstTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		9FF236E62018220500DB52BB /* SecondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		9FF236E72018220500DB52BB /* SecondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		AC48FD81FD12E404C5700F14 /* Pods-TabBar机制.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar机制.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabBar机制/Pods-TabBar机制.debug.xcconfig"; sourceTree = "<group>"; };
+		DED0F3ACC0B4CDD93BD903A9 /* Pods-TabBar机制.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar机制.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabBar机制/Pods-TabBar机制.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF236A8201821BE00DB52BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9CAC0261C5AC7AE21C7A6D /* libPods-TabBar机制.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF236C0201821BF00DB52BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF236CB201821BF00DB52BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816DB46FDF15390BAE6A0A98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC48FD81FD12E404C5700F14 /* Pods-TabBar机制.debug.xcconfig */,
+				DED0F3ACC0B4CDD93BD903A9 /* Pods-TabBar机制.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84FDC1C32D8906F7AE24A30F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9697569103451EFFC2726DB3 /* libPods-TabBar机制.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F659CBA201834E30000EA12 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9FF236E0201821E900DB52BB /* BLMainViewController.h */,
+				9FF236E1201821E900DB52BB /* BLMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9F659CBB201835010000EA12 /* SubControl */ = {
+			isa = PBXGroup;
+			children = (
+				9FF236E3201821F900DB52BB /* FirstTableViewController.h */,
+				9FF236E4201821F900DB52BB /* FirstTableViewController.m */,
+				9FF236E62018220500DB52BB /* SecondTableViewController.h */,
+				9FF236E72018220500DB52BB /* SecondTableViewController.m */,
+				9F659CC420183CCE0000EA12 /* BLListTableViewCell.h */,
+				9F659CC520183CCE0000EA12 /* BLListTableViewCell.m */,
+				9F659CC620183CCE0000EA12 /* BLListTableViewCell.xib */,
+			);
+			path = SubControl;
+			sourceTree = "<group>";
+		};
+		9F659CBC2018351D0000EA12 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9FF236BC201821BE00DB52BB /* Info.plist */,
+				9F659CB92018345A0000EA12 /* BLHeaderFilePch.pch */,
+				9FF236BD201821BE00DB52BB /* main.m */,
+				9FF236AE201821BE00DB52BB /* AppDelegate.h */,
+				9FF236AF201821BE00DB52BB /* AppDelegate.m */,
+				9FF236B7201821BE00DB52BB /* Assets.xcassets */,
+				9FF236B9201821BE00DB52BB /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9F659CBD201837120000EA12 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9F659CBE201837200000EA12 /* HttpRequestModel.h */,
+				9F659CBF201837200000EA12 /* HttpRequestModel.m */,
+				9F659CC120183ADD0000EA12 /* BLListModel.h */,
+				9F659CC220183ADD0000EA12 /* BLListModel.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		9FF236A2201821BE00DB52BB = {
+			isa = PBXGroup;
+			children = (
+				9FF236AD201821BE00DB52BB /* TabBar机制 */,
+				9FF236C6201821BF00DB52BB /* TabBar机制Tests */,
+				9FF236D1201821BF00DB52BB /* TabBar机制UITests */,
+				9FF236AC201821BE00DB52BB /* Products */,
+				816DB46FDF15390BAE6A0A98 /* Pods */,
+				84FDC1C32D8906F7AE24A30F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF236AC201821BE00DB52BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FF236AB201821BE00DB52BB /* TabBar机制.app */,
+				9FF236C3201821BF00DB52BB /* TabBar机制Tests.xctest */,
+				9FF236CE201821BF00DB52BB /* TabBar机制UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FF236AD201821BE00DB52BB /* TabBar机制 */ = {
+			isa = PBXGroup;
+			children = (
+				9F659CBD201837120000EA12 /* Tool */,
+				9F659CBA201834E30000EA12 /* Main */,
+				9F659CBB201835010000EA12 /* SubControl */,
+				9F659CBC2018351D0000EA12 /* Other */,
+			);
+			path = "TabBar机制";
+			sourceTree = "<group>";
+		};
+		9FF236C6201821BF00DB52BB /* TabBar机制Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF236C7201821BF00DB52BB /* TabBar__Tests.m */,
+				9FF236C9201821BF00DB52BB /* Info.plist */,
+			);
+			path = "TabBar机制Tests";
+			sourceTree = "<group>";
+		};
+		9FF236D1201821BF00DB52BB /* TabBar机制UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF236D2201821BF00DB52BB /* TabBar__UITests.m */,
+				9FF236D4201821BF00DB52BB /* Info.plist */,
+			);
+			path = "TabBar机制UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FF236AA201821BE00DB52BB /* TabBar机制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF236D7201821BF00DB52BB /* Build configuration list for PBXNativeTarget "TabBar机制" */;
+			buildPhases = (
+				DC726811AC2BAF1D781CED71 /* [CP] Check Pods Manifest.lock */,
+				9FF236A7201821BE00DB52BB /* Sources */,
+				9FF236A8201821BE00DB52BB /* Frameworks */,
+				9FF236A9201821BE00DB52BB /* Resources */,
+				281BB3C46D2C832E7F78DC68 /* [CP] Embed Pods Frameworks */,
+				532B2B0A7FA9DDDE7B7D268B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TabBar机制";
+			productName = "TabBar机制";
+			productReference = 9FF236AB201821BE00DB52BB /* TabBar机制.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FF236C2201821BF00DB52BB /* TabBar机制Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF236DA201821BF00DB52BB /* Build configuration list for PBXNativeTarget "TabBar机制Tests" */;
+			buildPhases = (
+				9FF236BF201821BF00DB52BB /* Sources */,
+				9FF236C0201821BF00DB52BB /* Frameworks */,
+				9FF236C1201821BF00DB52BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF236C5201821BF00DB52BB /* PBXTargetDependency */,
+			);
+			name = "TabBar机制Tests";
+			productName = "TabBar机制Tests";
+			productReference = 9FF236C3201821BF00DB52BB /* TabBar机制Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FF236CD201821BF00DB52BB /* TabBar机制UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF236DD201821BF00DB52BB /* Build configuration list for PBXNativeTarget "TabBar机制UITests" */;
+			buildPhases = (
+				9FF236CA201821BF00DB52BB /* Sources */,
+				9FF236CB201821BF00DB52BB /* Frameworks */,
+				9FF236CC201821BF00DB52BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF236D0201821BF00DB52BB /* PBXTargetDependency */,
+			);
+			name = "TabBar机制UITests";
+			productName = "TabBar机制UITests";
+			productReference = 9FF236CE201821BF00DB52BB /* TabBar机制UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FF236A3201821BE00DB52BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Balopy;
+				TargetAttributes = {
+					9FF236AA201821BE00DB52BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9FF236C2201821BF00DB52BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FF236AA201821BE00DB52BB;
+					};
+					9FF236CD201821BF00DB52BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FF236AA201821BE00DB52BB;
+					};
+				};
+			};
+			buildConfigurationList = 9FF236A6201821BE00DB52BB /* Build configuration list for PBXProject "TabBar机制" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FF236A2201821BE00DB52BB;
+			productRefGroup = 9FF236AC201821BE00DB52BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF236AA201821BE00DB52BB /* TabBar机制 */,
+				9FF236C2201821BF00DB52BB /* TabBar机制Tests */,
+				9FF236CD201821BF00DB52BB /* TabBar机制UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF236A9201821BE00DB52BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF236BB201821BE00DB52BB /* LaunchScreen.storyboard in Resources */,
+				9F659CC820183CCE0000EA12 /* BLListTableViewCell.xib in Resources */,
+				9FF236B8201821BE00DB52BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF236C1201821BF00DB52BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF236CC201821BF00DB52BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		281BB3C46D2C832E7F78DC68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBar机制/Pods-TabBar机制-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		532B2B0A7FA9DDDE7B7D268B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TabBar机制/Pods-TabBar机制-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBar机制/Pods-TabBar机制-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC726811AC2BAF1D781CED71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBar机制-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF236A7201821BE00DB52BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF236E5201821F900DB52BB /* FirstTableViewController.m in Sources */,
+				9FF236E2201821E900DB52BB /* BLMainViewController.m in Sources */,
+				9FF236BE201821BE00DB52BB /* main.m in Sources */,
+				9FF236B0201821BE00DB52BB /* AppDelegate.m in Sources */,
+				9FF236E82018220500DB52BB /* SecondTableViewController.m in Sources */,
+				9F659CC720183CCE0000EA12 /* BLListTableViewCell.m in Sources */,
+				9F659CC0201837200000EA12 /* HttpRequestModel.m in Sources */,
+				9F659CC320183ADD0000EA12 /* BLListModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF236BF201821BF00DB52BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF236C8201821BF00DB52BB /* TabBar__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF236CA201821BF00DB52BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF236D3201821BF00DB52BB /* TabBar__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FF236C5201821BF00DB52BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF236AA201821BE00DB52BB /* TabBar机制 */;
+			targetProxy = 9FF236C4201821BF00DB52BB /* PBXContainerItemProxy */;
+		};
+		9FF236D0201821BF00DB52BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF236AA201821BE00DB52BB /* TabBar机制 */;
+			targetProxy = 9FF236CF201821BF00DB52BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FF236B9201821BE00DB52BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF236BA201821BE00DB52BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FF236D5201821BF00DB52BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FF236D6201821BF00DB52BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FF236D8201821BF00DB52BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC48FD81FD12E404C5700F14 /* Pods-TabBar机制.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TabBar机制/Other/BLHeaderFilePch.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TabBar机制/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balopy.www.TabBar--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FF236D9201821BF00DB52BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED0F3ACC0B4CDD93BD903A9 /* Pods-TabBar机制.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TabBar机制/Other/BLHeaderFilePch.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TabBar机制/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balopy.www.TabBar--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FF236DB201821BF00DB52BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TabBar机制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balopy.www.TabBar--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBar机制.app/TabBar机制";
+			};
+			name = Debug;
+		};
+		9FF236DC201821BF00DB52BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TabBar机制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balopy.www.TabBar--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBar机制.app/TabBar机制";
+			};
+			name = Release;
+		};
+		9FF236DE201821BF00DB52BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TabBar机制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balopy.www.TabBar--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TabBar机制";
+			};
+			name = Debug;
+		};
+		9FF236DF201821BF00DB52BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TabBar机制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balopy.www.TabBar--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TabBar机制";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FF236A6201821BE00DB52BB /* Build configuration list for PBXProject "TabBar机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF236D5201821BF00DB52BB /* Debug */,
+				9FF236D6201821BF00DB52BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF236D7201821BF00DB52BB /* Build configuration list for PBXNativeTarget "TabBar机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF236D8201821BF00DB52BB /* Debug */,
+				9FF236D9201821BF00DB52BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF236DA201821BF00DB52BB /* Build configuration list for PBXNativeTarget "TabBar机制Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF236DB201821BF00DB52BB /* Debug */,
+				9FF236DC201821BF00DB52BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF236DD201821BF00DB52BB /* Build configuration list for PBXNativeTarget "TabBar机制UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF236DE201821BF00DB52BB /* Debug */,
+				9FF236DF201821BF00DB52BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FF236A3201821BE00DB52BB /* Project object */;
+}
